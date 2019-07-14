@@ -3,9 +3,9 @@ nw-gyp
 ### Native addon build tool for NW.js (node-webkit)
 
 ### Note: 
-* If you already have **[Node-gyp](https://github.com/nodejs/node-gyp)** (which is source), but also wanna copy this modified fork, then delete 'node-gyp' repo temporarily (but previously regenerate it, if you have done some desired changes/commits/diffs etc.). 
-* Fork this 'nw-gyp' repo => Settings => mark this nw-gyp repo as **Template repository** => Save => ...go to main page, press **Use this template** and system will fork it (regenerate) again entirely, but this way we change the primary sourse of a fork !
-* AWARE: By regenerating a fork through a tempate setting, you won't be able to commit to master and so on.
+* If you already have **[Node-gyp](https://github.com/nodejs/node-gyp)** (which is source), but also wanna copy this modified fork, then delete **node-gyp** repo temporarily (but previously regenerate it, if you have done some desired changes/commits/diffs etc.). 
+* Fork this **nw-gyp** repo => Settings => mark this nw-gyp repo as **Template repository** => Save => ...go to main page, press **Use this template** and system will fork it (regenerate) again entirely, but this way we change the primary sourse of a fork !
+* AWARE: By regenerating a fork through a tempate setting, you won't be able to commit to primary master and so on.
 
 `nw-gyp` is a hack on `node-gyp` to build native modules for NW.js (node-webkit). We are
 trying to provide a smooth way for developers rather than specifying a lot of 
